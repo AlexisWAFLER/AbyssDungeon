@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boutique</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'MedievalSharp', cursive;
+            background: url('background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #f5f5dc;
+        }
+
+        header {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        nav {
+            display: flex;
+        }
+
+        nav a {
+            color: #f5f5dc;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            transition: background 0.3s;
+        }
+
+        nav a:hover {
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 5px;
+        }
+
+        #main {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .coming-soon {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 2rem;
+            border-radius: 10px;
+            max-width: 600px;
+            margin: auto;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+        }
+
+        .coming-soon h2 {
+            margin-bottom: 1rem;
+        }
+
+        .coming-soon p {
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Boutique</h1>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="ranking.html">Classement</a>
+            <a href="shop.html">Boutique</a>
+        </nav>
+    </header>
+
+    <main id="main">
+        <div class="coming-soon">
+            <h2>Boutique en construction</h2>
+            <p>La boutique sera bientôt disponible avec des objets exclusifs pour améliorer votre aventure.</p>
+            <p>Restez à l'écoute !</p>
+        </div>
+    </main>
+
+    <footer style="text-align: center; padding: 1rem; background: rgba(0, 0, 0, 0.8);">
+        <p>&copy; 2025 Jeu Interactif Twitch. Tous droits réservés.</p>
+    </footer>
+</body>
+
+</html>
